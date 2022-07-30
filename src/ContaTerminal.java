@@ -12,7 +12,7 @@ public class ContaTerminal {
     public void CadastrarCliente(){
 
         System.out.printf("Digite o nome para cadastro: ");
-        nomeCliente = scanner.next();
+        nomeCliente = scanner.nextLine();
         System.out.printf("Digite a agência: ");
         agencia = scanner.next();
         System.out.printf("Digite o numero da conta : ");
